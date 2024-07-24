@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Pixels</title>
+    <link rel="stylesheet" href="/mainpixel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <h1>Mad Pixels</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="agentes.html">Agentes</a></li>
+            </ul>
+            <div class="navbar">
+                <button onclick="scrollToSection('section1')">DEF. A</button>
+                <button onclick="scrollToSection('section2')">DEF. B</button>
+                <button onclick="scrollToSection('section3')">ATQ. A</button>
+                <button onclick="scrollToSection('section4')">ATQ. B</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h1>DEFESA - BOMB A</h1>
+            <div class="paredebomba">
+                <img src="/img/paredetoxicalogo.png" alt="">
+                <div class="gallery">
+                    <img class="gallery-image" id="zoom" src="img/paredeAsunsetdef.png" alt="Imagem 1"
+                        onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/paredeAsunsetfeita.png" alt="Imagem 2"
+                        onclick="openFullScreen(this)">
+                </div>
+            </div>
+            <div class="venenobomba">
+            </div>
+        </section>
+        <section id="section2">
+            <h1>DEFESA - BOMB B</h1>
+            <div class="paredebombb">
+                <img src="/img/paredetoxicalogo.png" alt="">
+                <div class="gallery">
+                    <img class="gallery-image" id="zoom" src="img/paredebsunset.png" alt="Imagem 1"
+                        onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/paredebsunsetdeffeita.png" alt="Imagem 2"
+                        onclick="openFullScreen(this)">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="section3">
+            <h1>Ataque - Bomb A</h1>
+            <div class="paredeaatq">
+                <img src="/img/paredetoxicalogo.png" alt="">
+                <div class="gallery">
+                    <img class="gallery-image" id="zoom" src="img/paredeasunsetatq.png" alt="Imagem 1" onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/paredeasunsetatqfeita.png" alt="Imagem 2" onclick="openFullScreen(this)">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="section4">
+            <h1>Ataque - Bomb B</h1>
+            <div class="paredebatq">
+                <img src="/img/paredetoxicalogo.png" alt="">
+                <div class="gallery">
+                    <img class="gallery-image" id="zoom" src="img/paredebsunsetatq.png" alt="Imagem 1" onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/paredebsunsetatqfeita.png" alt="Imagem 2" onclick="openFullScreen(this)">
+                </div>
+            </div>
+            <div class="venenobombb">
+                <img src="/img/venenobomba.png" alt="">
+                <div class="gallery">
+                    <img class="gallery-image" id="zoom" src="img/molibsunsetatq1.png" alt="Imagem 1"
+                        onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/molibsunsetatq2.png" alt="Imagem 2"
+                        onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/molibsunsetatq3.png" alt="Imagem 2"
+                        onclick="openFullScreen(this)">
+                    <img class="gallery-image" id="zoom" src="img/molibsunsetatq4.png" alt="Imagem 2"
+                        onclick="openFullScreen(this)">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.jomhuria-regular {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#menu {
+    background-color: black;
+    width: 2120px;
+    height: 108px;
+    display: flex;
+}
+
+body {
+    background-color: #000000;
+}
+
+.conteudo {
+
+    display: flex;
+    font-family: "Jomhuria", serif;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+
+}
+
+.mainagente {
+    font-size: 70px;
+    color:#bdbdbd
+
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "Jomhuria", serif;
+    color: white;
+
+}
+
+ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logomap{
+    width: 300px;
+}
+
+.gallery-image{
+    width: 260px;
+}
